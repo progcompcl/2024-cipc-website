@@ -20,14 +20,6 @@ Puedes ver nuestro canal de Youtube para aprender desde tópicos esenciales a av
 
 Quienes participen en el campamento deben hacerse cargo de su supervivencia, incluso del almuerzo durante los días del campamento. Nosotros no nos hacemos cargo de nada de lo indicado, incluso si recibes una de las becas que ofrecemos.
 
-#### **¿Hay ayuda económica para quienes no somos de Concepción?**
-
-Así es. Sólo debes solicitarla en el formulario de inscripción. Típicamente les hacemos entrega de la ayuda durante o después de la realización del campamento, tras firmar un compromiso de participar en todas las actividades de éste.
-
-Tras finalizar el segundo llamado a inscripciones, vamos a revisar todas las inscripciones y a notificar a todos quienes postularon.
-
-Adicionalmente tendremos becas exclusivas para equipos conformados completamente por mujeres. Para postular, indícalo en el formulario de inscripción.
-
 #### **Me inscribí en el formulario, ¿tengo que hacer algo más?**
 
 No. Te notificaremos tras terminar las inscripciones, confirmando tu inscripción al campamento. Tras esa fecha y hasta el inicio del campamento, te enviaremos unos cuantos correos más con más información importante sobre el evento.
