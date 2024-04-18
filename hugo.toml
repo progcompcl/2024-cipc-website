@@ -1,0 +1,52 @@
+baseURL = 'cipc.progcomp.cl'
+title = 'CIPC Chile'
+defaultContentLanguage = 'es'
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[params]
+home = "content/organizadores"
+
+[params.paige]
+color = "#ff0000"
+color_scheme = "light"
+site_title = "CIPC Chile"
+site_description = "Campamento Invernal de Programación Competitiva en Chile."
+style = "#paige-content { width: 66ch; }"
+
+[params.paige.analytics]
+disable = true
+
+[params.paige.comments]
+disable = true
+
+[params.paige.feed]
+disable = true
+
+[languages.es]
+weight = 10
+
+[[languages.es.menu.main]]
+identifier = "inicio"
+name = "Inicio"
+url = "/"
+weight = 10
+
+[[languages.es.menu.main]]
+identifier = "organizadores"
+name = "Organizadores"
+url = "/organizadores/"
+weight = 20
+
+[[languages.es.menu.main]]
+identifier = "calendario"
+name = "Calendario"
+url = "/calendario/"
+weight = 30
+
+[[languages.es.menu.main]]
+identifier = "preguntas-frecuentes"
+name = "Preguntas frecuentes"
+url = "/preguntas-frecuentes/"
+weight = 40
