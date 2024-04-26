@@ -1,0 +1,15 @@
+<header>
+    <div id="header-left">
+        <button id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+    <nav role="navigation">
+        {%- for page in collections.all | sortByOrder %}
+            <a href="{{ page.url }}">{{ page.data.title }}</a>
+        {%- endfor %}
+    </nav>
+    <div id="header-right"></div>
+</header>
