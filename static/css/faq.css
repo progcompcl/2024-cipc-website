@@ -20,6 +20,7 @@ details p {
 }
 
 summary {
+    list-style: none;
     font-style: italic;
     cursor: pointer;
     display: flex;
