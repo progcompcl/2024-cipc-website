@@ -29,11 +29,16 @@ showTitle: true
     <link rel="dns-prefetch" href="{{ metadata.url }}">
     <link rel="preconnect" href="{{ metadata.url }}">
     <link rel="me" href="{{ metadata.url }}" type="text/html">
-    <link rel="me" href="mailto:{{ metadata.mail }}"> {% set css %}
-    {% include "style.css" %}
-    {% endset %}
-    <style>
-      {{css | cssmin | safe}}</style>
+    <link rel="me" href="mailto:{{ metadata.mail }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="/static/css/style.css">
+    {% for cssFile in extraCss %}
+      <link rel="stylesheet" href="{{ cssFile }}">
+    {% endfor %}
+    <script src="/static/js/script.js" defer></script>
+    {% for jsFile in extraJs %}
+      <script src="{{ jsFile }}" defer></script>
+    {% endfor %}
   </head>
   <body>
     {% include "header.njk" %}
@@ -48,11 +53,7 @@ showTitle: true
           {% endif %}
         </div>
       {% endif %}
-      {{ content | safe }}
+      <div id="article">{{ content | safe }}</div>
     </div>
-    {% set js %}
-    {% include "script.js" %}
-    {% endset %}
-    <script>{{ js | jsmin | safe }}</script>
   </body>
 </html>

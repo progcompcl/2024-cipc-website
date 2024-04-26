@@ -1,8 +1,8 @@
 {
   "title": "microsite",
   "description": "Opinionated micro front-end that can be used to start a one-page site.",
-  "favicon": "/assets/icon.png",
-  "share": "/assets/share-image.jpg",
+  "favicon": "/static/img/icon.png",
+  "share": "/static/img/share-image.jpg",
   "url": "https://voight-microsite.netlify.app",
   "author": "Danny de Vries",
   "mail": "hi@dandevri.es",

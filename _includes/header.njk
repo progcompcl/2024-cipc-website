@@ -7,8 +7,8 @@
         </button>
     </div>
     <nav role="navigation">
-        {%- for page in collections.all | sortByOrder %}
-            <a href="{{ page.url }}">{{ page.data.title }}</a>
+        {%- for navPage in collections.all | sortByOrder %}
+            <a class="{% if navPage.url == page.url %}nav-current{% endif %}" href="{{ navPage.url }}">{{ navPage.data.title }}</a>
         {%- endfor %}
     </nav>
     <div id="header-right"></div>

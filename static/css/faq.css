@@ -1,0 +1,41 @@
+details {
+    padding: 10px;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+details:first-child {
+    border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+details>div {
+    margin-top: .6rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: var(--green);
+}
+
+details p {
+    margin: 0 !important;
+}
+
+summary {
+    font-style: italic;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+summary::after {
+    content: '\25BC';
+    transition: 0.2s;
+    align-self: center;
+}
+
+details {
+    background-color: var(--header-bg-color);
+}
+
+details[open]>summary::after {
+    transform: rotate(180deg);
+}

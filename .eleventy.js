@@ -12,7 +12,7 @@ module.exports = function (config) {
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order))
   })
 
-  config.addPassthroughCopy("assets");
+  config.addPassthroughCopy("static");
 
   config.addNunjucksAsyncFilter("jsmin", async function (
     code,
