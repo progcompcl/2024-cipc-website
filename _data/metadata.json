@@ -1,11 +1,11 @@
 {
-  "title": "microsite",
-  "description": "Opinionated micro front-end that can be used to start a one-page site.",
+  "title": "CIPC 2024",
+  "description": "Campamento Invernal de Programación Competitiva en Chile",
   "favicon": "/static/img/icon.png",
   "share": "/static/img/share-image.jpg",
-  "url": "https://voight-microsite.netlify.app",
-  "author": "Danny de Vries",
-  "mail": "hi@dandevri.es",
-  "lang": "en",
-  "social": "@dandevri"
+  "url": "https://cipc.progcomp.cl",
+  "author": "Blaz Korecic",
+  "mail": "",
+  "lang": "es",
+  "social": ""
 }
