@@ -3,4 +3,22 @@ layout: base.njk
 title: "Organizadores"
 subtitle: "Conoce a nuestros organizadores"
 order: 2
+extraCss:
+    - "/static/css/organizadores.css"
 ---
+
+<div id="organizers">
+    {% for person in organizers %}
+        <div class="profile">
+            <img src="{{ person.img }}" width="300px"/>
+            <div class="name">{{ person.name }}</div>
+            <ul>
+                {% for item in person.items %}
+                    <li>
+                        {{ item }}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+</div>

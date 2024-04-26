@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Javier Marinkovic",
+        "img": "/static/img/organizers/jmarinkovic.jpg",
+        "items": [
+            "Estudiante de Magíster en Matemáticas Aplicadas, Universidad de Chile",
+            "Campeón nacional ICPC Chile 2016 y 2019",
+            "ICPC World Finalist 2017 Rapid City, South Dakota",
+            "ICPC World Finalist 2020 Moscú, Rusia"
+        ]
+    },
+    {
+        "name": "Javier Oliva",
+        "img": "/static/img/organizers/joliva.jpg",
+        "items": [
+            "Estudiante de Ingeniería Civil en Computación, Universidad de Chile",
+            "Campeón nacional ICPC Chile 2017 y 2019",
+            "ICPC World Finalist 2018 Beijing, China",
+            "ICPC World Finalist 2020 Moscú, Rusia"
+        ]
+    },
+    {
+        "name": "Ignacio Muñoz",
+        "img": "/static/img/organizers/imuñoz.jpg",
+        "items": [
+            "Estudiante de Ingeniería Civil en Computación, Pontificia Universidad Católica de Chile",
+            "Campeón nacional ICPC Chile 2022",
+            "ICPC World Finalist 2023 Sharm El-Sheikh, Egipto"
+        ]
+    },
+    {
+        "name": "Martín Muñoz",
+        "img": "/static/img/organizers/mmuñoz.png",
+        "items": [
+            "Estudiante de Doctorado en Ciencias de la Computación, Pontificia Universidad Católica de Chile",
+            "Coach de Programación Competitiva PUC",
+            "Profesor de Estructuras de Datos y Taller de Programación Avanzada en PUC"
+        ]
+    },
+    {
+        "name": "Gabriel Carmona",
+        "img": "/static/img/organizers/gcarmona.jpg",
+        "items": [
+            "Ingeniero Civil en Informática, Universidad Técnica Federico Santa María",
+            "Coach de Programación Competitiva USM",
+            "Profesor de Estructuras de Datos y Lenguajes de Programación en USM"
+        ]
+    }
+]
