@@ -31,11 +31,11 @@ showTitle: true
     <link rel="me" href="{{ metadata.url }}" type="text/html">
     <link rel="me" href="mailto:{{ metadata.mail }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/base.css">
     {% for cssFile in extraCss %}
       <link rel="stylesheet" href="{{ cssFile }}">
     {% endfor %}
-    <script src="/static/js/script.js" defer></script>
+    <script src="/static/js/base.js" defer></script>
     {% for jsFile in extraJs %}
       <script src="{{ jsFile }}" defer></script>
     {% endfor %}
