@@ -1,0 +1,53 @@
+@import "colors.css";
+
+img {
+    max-width: 100%;
+}
+
+#banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner>img {
+    max-height: 500px;
+    filter: brightness(50%);
+}
+
+#banner-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 50px hsla(0, 0%, 0%);
+    text-align: center;
+    font-size: 80%;
+}
+
+#banner-text>h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#btn-sign {
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--purple);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+#sponsors {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#sponsor-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,9 @@
+@import "colors.css";
+
+#cipc-description {
+    margin-top: 1rem;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: var(--header-bg-color);
+    padding: 10px;
+}
