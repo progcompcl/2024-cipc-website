@@ -122,6 +122,11 @@ nav>a:hover {
     margin-bottom: 0.6em;
   }
 
+  nav>a.nav-current {
+    text-decoration-thickness: 3px;
+    text-underline-offset: unset;
+  }
+
   #hamburger {
     display: block;
     cursor: pointer;
