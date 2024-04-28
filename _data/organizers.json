@@ -45,5 +45,13 @@
             "Coach de Programación Competitiva USM",
             "Profesor de Estructuras de Datos y Lenguajes de Programación en USM"
         ]
+    },
+    {
+        "name": "Blaz Korecic",
+        "img": "/static/img/organizers/bkorecic.jpg",
+        "items": [
+            "Estudiante de Magíster en Ciencias de la Computación, Universidad de Chile",
+            "Campeón nacional ICPC Chile 2021"
+        ]
     }
 ]

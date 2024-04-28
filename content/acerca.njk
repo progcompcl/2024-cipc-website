@@ -1,8 +1,6 @@
 ---
-layout: base.njk
 title: "Acerca"
 order: 1
-showTitle: false
 extraCss:
     - "/static/css/acerca.css"
     - "/static/css/carousel.css"
@@ -11,59 +9,101 @@ extraJs:
     - "/static/js/acerca.js"
 ---
 
-<div id="carousel-3" class="carousel" role="region" aria-labelledby="carousel-3-title">
-    <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-1-title">
-        <div class="slide-content">
-            <div class="slide-caption">
-                <h3 id="carousel-3-slide-1-title">2017, ?????</h3>
-            </div>
-            <img
-                src="https://source.unsplash.com/random/1600x700/?chile"
-                alt="Foto grupal del campamento 2017"
-                width="800"
-                height="350"/>
-        </div>
-    </div>
-    <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-2-title">
-        <div class="slide-content">
-            <div class="slide-caption">
-                <h3 id="carousel-3-slide-2-title">2018, Santiago</h3>
-            </div>
-            <img
-                src="https://source.unsplash.com/random/1600x700/?santiago"
-                alt="Foto grupal del campamento 2018"
-                width="800"
-                height="350"/>
-        </div>
-    </div>
-    <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-3-title">
-        <div class="slide-content">
-            <div class="slide-caption">
-                <h3 id="carousel-3-slide-3-title">2019, Valdivia</h3>
-            </div>
-            <img
-                src="https://source.unsplash.com/random/1600x700/?valdivia"
-                alt="Foto grupal del campamento 2019"
-                width="800"
-                height="350"/>
-        </div>
-    </div>
-    <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-4-title">
-        <div class="slide-content">
-            <div class="slide-caption">
-                <h3 id="carousel-3-slide-4-title">2023, Valparaíso</h3>
-            </div>
-            <img
-                src="https://source.unsplash.com/random/1600x700/?valparaiso"
+{% extends 'base.njk' %}
+{% block preContent %}
+    <div id="carousel-3" class="carousel" role="region" aria-labelledby="carousel-3-title">
+        <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-1-title">
+            <div class="slide-content">
+                <div class="slide-caption">
+                    <h3 id="carousel-3-slide-1-title">2023, Valparaíso</h3>
+                </div>
+                <img
+                src="/static/img/campamentos-anteriores/2023-valparaiso.jpg"
                 alt="Foto grupal del campamento 2023"
                 width="800"
                 height="350"/>
+            </div>
+        </div>
+        <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-2-title">
+            <div class="slide-content">
+                <div class="slide-caption">
+                    <h3 id="carousel-3-slide-2-title">2019, Valdivia</h3>
+                </div>
+                <img
+                src="/static/img/campamentos-anteriores/2019-valdivia.jpg"
+                alt="Foto grupal del campamento 2019"
+                width="800"
+                height="350"/>
+            </div>
+        </div>
+        <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-3-title">
+            <div class="slide-content">
+                <div class="slide-caption">
+                    <h3 id="carousel-3-slide-3-title">2018, Santiago</h3>
+                </div>
+                <img
+                src="/static/img/campamentos-anteriores/2018-santiago.jpg"
+                alt="Foto grupal del campamento 2018"
+                style="object-position: 0% 70%;"
+                width="800"
+                height="350"/>
+            </div>
+        </div>
+        <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-5-title">
+            <div class="slide-content">
+                <div class="slide-caption">
+                    <h3 id="carousel-3-slide-4-title">2017, Concepción</h3>
+                </div>
+                <img
+                src="/static/img/campamentos-anteriores/2017-concepcion.jpg"
+                alt="Foto grupal del campamento 2017"
+                style="object-position: 0% 80%;"
+                width="800"
+                height="350"/>
+            </div>
+        </div>
+        <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-5-title">
+            <div class="slide-content">
+                <div class="slide-caption">
+                    <h3 id="carousel-3-slide-5-title">2016, La Serena</h3>
+                </div>
+                <img
+                src="/static/img/campamentos-anteriores/2016-la-serena.jpg"
+                alt="Foto grupal del campamento 2016"
+                style="object-position: 0% 70%;"
+                width="800"
+                height="350"/>
+            </div>
+        </div>
+        <div class="slide" role="tabpanel" aria-labelledby="carousel-3-slide-6-title">
+            <div class="slide-content">
+                <div class="slide-caption">
+                    <h3 id="carousel-3-slide-6-title">2015, Valparaíso</3>
+                </div>
+                <img
+                src="/static/img/campamentos-anteriores/2015-valparaiso.jpg"
+                alt="Foto grupal del campamento 2015"
+                width="800"
+                height="350"/>
+            </div>
         </div>
     </div>
-</div>
-<p id="cipc-description">
+{% endblock %}
+{% block content %}
+    <h2> ¿Qué es el campamento? </h2>
+    <p>
     El Campamento Invernal de Programación Competitiva es una instancia para aprender técnicas de algoritmos y estructuras
     de datos aplicados a Programación Competitiva y poder llevarlos a la práctica resolviendo desafiantes competencias de
-    programación. Consiste en tres tipos de actividades: clases expositivas de temas avanzados, talleres de programación
-    simulando competencias reales, y sesiones de discusión.
-</p>
+    programación. Está enfocado en competencias estilo <a href="https://es.wikipedia.org/wiki/Competici%C3%B3n_Internacional_Universitaria_de_Programaci%C3%B3n">ICPC</a>.
+    </p>
+    <h2> ¿En qué consiste? </h2>
+    <p>
+    El campamento dura dos semanas y consiste en tres tipos de actividades: clases expositivas de temas avanzados, talleres
+    programación simulando competencias reales, y sesiones de discusión. 
+    </p>
+    <h2> ¿Quién lo organiza? </h2>
+    <p>
+    Somos un grupo voluntario de estudiantes de varias universidades apasionados por la Programación Competitiva, y el campamento
+    es una instancia para compartir nuestro gusto y conocimiento en esta disciplina.
+    </p>
+{% endblock %}

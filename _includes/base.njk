@@ -1,9 +1,5 @@
----
-showTitle: true
----
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,6 +28,8 @@ showTitle: true
     <link rel="me" href="mailto:{{ metadata.mail }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/page.css">
     {% for cssFile in extraCss %}
       <link rel="stylesheet" href="{{ cssFile }}">
     {% endfor %}
@@ -42,9 +40,12 @@ showTitle: true
   </head>
   <body>
     {% include "header.njk" %}
-    <div id="content">
-      {% if showTitle %}
-        <div id="page-header">
+    <main>
+      <div id="content-pre">
+        {% block preContent %}{% endblock %}
+      </div>
+      {% if not hideTitle %}
+        <div id="content-header">
           {% if title | length %}
             <h1 id="content-title">{{ title }}</h1>
           {% endif %}
@@ -53,7 +54,11 @@ showTitle: true
           {% endif %}
         </div>
       {% endif %}
-      <div id="article">{{ content | safe }}</div>
-    </div>
+      <div id="content">
+        {% block content %}
+          {{ content | safe }}
+        {% endblock %}
+      </div>
+    </main>
   </body>
 </html>

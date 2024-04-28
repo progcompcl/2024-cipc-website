@@ -1,6 +1,10 @@
 :root {
-    --main-bg-color: rgb(253, 253, 253);
-    --header-bg-color: rgb(243, 243, 243);
+    --gray-1: hsl(0, 0%, 97%);
+    --gray-2: hsl(0, 0%, 95%);
+    --gray-3: hsl(0, 0%, 93%);
+    --gray-4: hsl(0, 0%, 90%);
+    --gray-5: hsl(0, 0%, 55%);
+    --gray-6: hsl(0, 0%, 15%);
     --red: rgb(217, 79, 92);
     --green: rgb(220, 238, 224);
     --purple: rgb(112, 61, 253);
