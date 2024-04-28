@@ -1,10 +1,10 @@
 {
   "title": "CIPC 2024",
   "description": "Campamento Invernal de Programación Competitiva en Chile",
-  "favicon": "/static/img/icon.png",
-  "share": "/static/img/share-image.jpg",
+  "favicon": "/static/img/favicon.png",
+  "share": "/static/img/logo-progcompcl.png",
   "url": "https://cipc.progcomp.cl",
-  "author": "Blaz Korecic",
+  "author": "ProgCompCL",
   "mail": "",
   "lang": "es",
   "social": ""
