@@ -67,7 +67,7 @@ main {
 #btn-sign {
     margin-top: 1.5rem;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 15px 10px 15px;
     background-color: var(--purple);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 22px;
@@ -78,7 +78,7 @@ main {
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
 
     height: 25%;
     text-align: center;
@@ -92,11 +92,11 @@ main {
 }
 
 #sponsor-logos img {
-    max-height: 150px;
+    max-height: 90px;
     height: 15vh;
+    opacity: 85%;
 }
 
 #nic-chile {
-    border-radius: 100%;
-    opacity: 85%;
+    clip-path: circle();
 }
