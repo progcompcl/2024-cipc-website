@@ -39,8 +39,16 @@ body {
   margin: 0;
 
   font-family: "Montserrat", sans-serif;
-  font-size: 105%;
 
   color: var(--gray-6);
   background-color: var(--gray-3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
 }

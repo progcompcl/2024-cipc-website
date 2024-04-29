@@ -28,6 +28,7 @@
     <link rel="me" href="mailto:{{ metadata.mail }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="/static/css/base.css">
     <link rel="stylesheet" href="/static/css/header.css">
@@ -36,6 +37,7 @@
       <link rel="stylesheet" href="{{ cssFile }}">
     {% endfor %}
     <script src="/static/js/base.js" defer></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     {% for jsFile in extraJs %}
       <script src="{{ jsFile }}" defer></script>
     {% endfor %}
@@ -43,24 +45,26 @@
   <body>
     {% include "header.njk" %}
     <main>
-      <div id="content-pre">
-        {% block preContent %}{% endblock %}
-      </div>
-      {% if not hideTitle %}
-        <div id="content-header">
-          {% if title | length %}
-            <h1 id="content-title">{{ title }}</h1>
-          {% endif %}
-          {% if subtitle | length %}
-            <h3 id="content-subtitle">{{ subtitle }}</h3>
-          {% endif %}
+      {% block main %}
+        <div id="content-pre">
+          {% block preContent %}{% endblock %}
         </div>
-      {% endif %}
-      <div id="content">
-        {% block content %}
-          {{ content | safe }}
-        {% endblock %}
-      </div>
+        {% if not hideTitle %}
+          <div id="content-header">
+            {% if title | length %}
+              <h1 id="content-title">{{ title }}</h1>
+            {% endif %}
+            {% if subtitle | length %}
+              <h3 id="content-subtitle">{{ subtitle }}</h3>
+            {% endif %}
+          </div>
+        {% endif %}
+        <div id="content">
+          {% block content %}
+            {{ content | safe }}
+          {% endblock %}
+        </div>
+      {% endblock %}
     </main>
   </body>
 </html>

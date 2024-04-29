@@ -4,36 +4,97 @@ img {
     max-width: 100%;
 }
 
-#banner {
-    width: 100%;
-    position: relative;
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 1.2;
+
+    position: relative;
+    width: 100%;
+    z-index: 0;
+
+    color: white;
 }
 
-#banner>img {
+main>* {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+#hero-img {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    max-height: 500px;
     filter: brightness(50%);
 }
 
-#banner-text {
+#hero-center {
     position: absolute;
     left: 50%;
     top: 50%;
-    color: white;
     transform: translate(-50%, -50%);
-    text-shadow: 0 0 50px hsla(0, 0%, 0%);
     text-align: center;
     font-size: 80%;
 }
 
-#banner-text>h3 {
-    font-weight: bold;
+/*
+.typewriter {
+    overflow: hidden;
+    border-right: 1ch solid var(--red);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05rem;
+    animation:
+        typing 1.5s steps(40, end),
+        blink-caret .75s step-end infinite;
     margin-bottom: 1rem;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--red);
+    }
+}
+*/
+
+.hero-title {
+    position: relative;
+}
+
+.invisible {
+    color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+
+#typewriter {
+    position: absolute;
+    top: 0;
+}
+
+.Typewriter__cursor {
+    position: absolute;
+    color: var(--red);
+    user-select: none;
 }
 
 #btn-sign {
@@ -45,13 +106,36 @@ img {
     font-size: 16px;
 }
 
-#sponsors {
-    margin-top: 2rem;
+#hero-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 25%;
+    transform: translate(-50%, 0);
     text-align: center;
 }
 
+#sponsor-text {
+    height: 40px;
+}
+
 #sponsor-logos {
+    height: calc(100% - 40px);
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+#sponsor-logos img {
+    height: 100%;
+}
+
+#sponsor-logos a {
+    height: 100%;
+}
+
+#nic-chile {
+    border-radius: 100%;
+    opacity: 85%;
 }

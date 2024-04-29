@@ -4,27 +4,28 @@ order: 0
 hideTitle: true
 extraCss:
     - "/static/css/index.css"
+extraJs:
+    - "/static/js/index.js"
 ---
 
 <!-- We can't use Nunjucks blocks with Eleventy layouts, so we need to remove the layout from the front matter and add use Nunjuck extends -->
 {% extends 'base.njk' %}
-{% block preContent %}
-    <div id="banner">
-        <img src="/static/img/UdeC2.jpg" alt="Campanil de la Universidad de Concepción"/>
-        <div id="banner-text">
-            <h3>
-            Campamento Invernal de Programación Competitiva en Chile
-        </h3>
-            <h4>22 de Julio - 2 de Agosto, Universidad de Concepción</h4>
-            <button id="btn-sign">Inscríbete</button>
+{% block main %}
+    <img id="hero-img" src="/static/img/UdeC2.jpg" alt="Campanil de la Universidad de Concepción"/>
+    <div id="hero-center">
+        <div id="hero-title">
+            <h1 id="typewriter"></h1>
+            <h1 class="invisible">Campamento Invernal de Programación Competitiva en Chile</h1>
         </div>
+        <h2>22 de Julio - 2 de Agosto, Universidad de Concepción</h2>
+        <button id="btn-sign">Inscríbete</button>
     </div>
-{% endblock %}
-{% block content %}
-    <div id="sponsors">
-        Patrocina
+    <div id="hero-bottom">
+        <div id="sponsor-text">
+            Patrocina
+        </div>
         <div id="sponsor-logos">
-            <img src="/static/img/sponsors/nic-chile.jpg" width="300px"/>
+            <a href="https://www.nic.cl/"><img id="nic-chile" src="/static/img/sponsors/nic-chile.jpg"/></a>
         </div>
     </div>
 {% endblock %}
