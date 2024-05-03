@@ -43,5 +43,13 @@
             "Estudiante de Magíster en Ciencias de la Computación, Universidad de Chile",
             "Campeón nacional ICPC Chile 2021"
         ]
+    },
+    {
+        "name": "Marcelo Lemus",
+        "img": "/static/img/organizers/mlemus.jpg",
+        "items": [
+            "Estudiante de Ingeniería Civil en Computación, Pontificia Universidad Católica de Chile",
+            "Subcampeón nacional ICPC Chile 2022"
+        ]
     }
 ]
