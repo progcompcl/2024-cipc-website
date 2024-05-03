@@ -48,6 +48,7 @@ main {
 
 #hero-title {
     position: relative;
+    text-wrap: balance;
 }
 
 #hero-title>h2 {
