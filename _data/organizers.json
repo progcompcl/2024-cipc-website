@@ -10,16 +10,6 @@
         ]
     },
     {
-        "name": "Javier Oliva",
-        "img": "/static/img/organizers/joliva.jpg",
-        "items": [
-            "Estudiante de Ingeniería Civil en Computación, Universidad de Chile",
-            "Campeón nacional ICPC Chile 2017 y 2019",
-            "ICPC World Finalist 2018 Beijing, China",
-            "ICPC World Finalist 2020 Moscú, Rusia"
-        ]
-    },
-    {
         "name": "Ignacio Muñoz",
         "img": "/static/img/organizers/imuñoz.jpg",
         "items": [
