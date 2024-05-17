@@ -84,22 +84,38 @@ main {
     gap: .5rem;
 
     height: 25%;
+    width: 100%;
+
+    color: var(--gray-6);
     text-align: center;
 }
 
 #sponsor-logos {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 1rem;
-    padding-bottom: 1rem;
+    padding: .5rem 0 .5rem 0;
 }
 
 #sponsor-logos img {
-    max-height: 90px;
-    height: 15vh;
-    opacity: 85%;
+    max-height: 4rem;
+    opacity: 100%;
 }
 
-#nic-chile {
+.round-logo {
     clip-path: circle();
+}
+
+#logo-ntt-data {
+    border: 5px solid transparent;
+}
+
+#logo-cero {
+    max-width: 80px;
+}
+
+#logo-nic {
+    border: 5px solid white;
+    border-radius: 50px;
 }
