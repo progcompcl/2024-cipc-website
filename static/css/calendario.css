@@ -1,0 +1,30 @@
+@import "colors.css";
+
+table {
+    display: block;
+    overflow-x: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+    padding: 3px;
+    border: 1px solid var(--gray-5);
+    overflow-wrap: break-all;
+}
+
+th {
+    background-color: var(--gray-3);
+}
+
+.phantom {
+    background-color: transparent;
+    border: none;
+}
+
+.cell-centered {
+    text-align: center;
+    font-size: 120%;
+}
