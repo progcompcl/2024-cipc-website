@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.profile>img {
+.profile > .img-container >img {
     width:100%;
 }
 
