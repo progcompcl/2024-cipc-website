@@ -10,7 +10,9 @@ extraCss:
 <div id="organizers">
     {% for person in organizers %}
         <div class="profile">
-            <img src="{{ person.img }}" width="300px"/>
+            <div class="img-container">
+                <img src="{{ person.img }}" />
+            </div>
             <div class="name">{{ person.name }}</div>
             <ul>
                 {% for item in person.items %}
