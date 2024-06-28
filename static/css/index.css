@@ -80,7 +80,7 @@ main {
     height: 25%;
     width: 100%;
 
-    background-color: hsla(0, 0%, 95%, 55%);
+    background-color: hsla(0, 0%, 95%, 40%);
     color: var(--gray-6);
     text-align: center;
 }
@@ -126,7 +126,7 @@ main {
 
 @media screen and (max-width: 1086px) {
     #sponsor-logos {
-        width: 90%;
+        width: 100%;
         max-width: 800px;
         margin-inline: auto;
         position: relative;
