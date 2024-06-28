@@ -88,7 +88,6 @@ main {
 #sponsor-logos {
     display: flex;
     flex: 1 1 0;
-    overflow: scroll;
     align-items: center;
 
     gap: 1rem;
