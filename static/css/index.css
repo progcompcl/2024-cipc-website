@@ -77,29 +77,35 @@ main {
 }
 
 #hero-bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    gap: .5rem;
-
     height: 25%;
     width: 100%;
 
+    background-color: hsla(0, 0%, 95%, 55%);
     color: var(--gray-6);
     text-align: center;
 }
 
 #sponsor-logos {
     display: flex;
+    flex: 1 1 0;
+    overflow: scroll;
     align-items: center;
-    justify-content: center;
+
     gap: 1rem;
-    padding: .5rem 0 .5rem 0;
+    padding: .5rem;
+}
+
+#sponsor-logos>a:first-child {
+    margin-left: auto;
+}
+
+#sponsor-logos>a:last-child {
+    margin-right: auto;
 }
 
 #sponsor-logos img {
     max-height: 4rem;
+    max-width: 220px;
     opacity: 100%;
 }
 
@@ -107,15 +113,13 @@ main {
     clip-path: circle();
 }
 
-#logo-ntt-data {
-    border: 5px solid transparent;
+#logo-nic {}
+
+#logo-tcs {
+    padding: 5px;
 }
 
-#logo-cero {
-    max-width: 80px;
-}
-
-#logo-nic {
-    border: 5px solid white;
-    border-radius: 50px;
+#logo-synopsys {
+    padding-top: 8px;
+    max-width: 220px;
 }
