@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.sponsor-block {
+.block {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,26 +11,26 @@
     width: 100%;
 }
 
-.sponsor-block>* {
+.block>* {
     padding: 8px 8px 8px 8px;
 }
 
-.sponsor-block>a {
+.block>a {
     max-width: 40%;
     margin-left: auto;
 }
 
-.sponsor-block>div {
+.block>div {
     margin-left: auto;
     max-width: 50%;
 }
 
 @media screen and (max-width: 1008px) {
-    .sponsor-block {
+    .block {
         flex-direction: column;
     }
 
-    .sponsor-block>* {
+    .block>* {
         margin-right: auto;
     }
 
