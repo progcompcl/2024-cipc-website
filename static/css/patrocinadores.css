@@ -1,0 +1,37 @@
+#content>h1 {
+    text-align: center;
+}
+
+.sponsor-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: .25cm 0 .5cm 0;
+    width: 100%;
+}
+
+.sponsor-block>* {
+    padding: 8px 8px 8px 8px;
+}
+
+.sponsor-block>a {
+    max-width: 40%;
+    margin-left: auto;
+}
+
+.sponsor-block>div {
+    margin-left: auto;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 1008px) {
+    .sponsor-block {
+        flex-direction: column;
+    }
+
+    .sponsor-block>* {
+        margin-right: auto;
+    }
+
+}

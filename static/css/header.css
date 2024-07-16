@@ -62,7 +62,7 @@ nav>a:hover {
 
 /* Media queries for responsiveness */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1008px) {
     nav {
         position: absolute;
         flex-direction: column;

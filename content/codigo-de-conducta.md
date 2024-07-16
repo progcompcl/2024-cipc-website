@@ -2,7 +2,7 @@
 layout: base.njk
 title: "Código de conducta"
 subtitle: "Al participar en el capamento aceptas los siguientes lineamientos"
-order: 5
+order: 6
 ---
 
 Nosotros, los participantes, voluntarios, organizadores, profesores, medios de comunicación, patrocinadores y otras personas involucradas con el Campamento Invernal de Programación Competitiva 2024, nos reunimos para el intercambio abierto de ideas, la libertad de pensamiento y expresión, y para desarrollar nuestras habilidades, lo cual es central para los objetivos de esta Escuela. Esto requiere una comunidad y un entorno que reconozcan y respeten el valor inherente de cada persona.
