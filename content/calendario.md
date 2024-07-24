@@ -44,6 +44,10 @@ extraCss:
 | 11:00 - 12:45 | Grafos I     |
 | 12:45 - 13:30 | Almuerzo     |
 | 13:30 - 18:30 | Competencia  |
+<a class="pdf-icon" href="/static/clases/Clase3.pdf">Diapositivas</a>
+<a class="cpp-icon" href="/static/files/dfs.cpp">Código DFS</a>
+<a class="cpp-icon" href="/static/files/bfs.cpp">Código BFS</a>
+<a class="cpp-icon" href="/static/files/dijkstra.cpp">Código Dijkstra</a>
 </div>
 
 <div class="day">
