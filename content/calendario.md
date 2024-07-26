@@ -60,6 +60,8 @@ extraCss:
 | 11:00 - 12:45 | Programación Dinámica             |
 | 12:45 - 13:30 | Almuerzo                          |
 | 13:30 - 18:30 | Competencia                       |
+<a class="cpp-icon" href="/static/files/mini-contest/solucion-c.cpp">Solución problema C mini-competencia</a>
+<a class="cpp-icon" href="/static/files/mini-contest/solucion-e.cpp">Solución problema E mini-competencia</a>
 </div>
 
 <div class="day">
