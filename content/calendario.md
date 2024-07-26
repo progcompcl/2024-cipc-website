@@ -48,6 +48,7 @@ extraCss:
 <a class="cpp-icon" href="/static/files/dfs.cpp">Código DFS</a>
 <a class="cpp-icon" href="/static/files/bfs.cpp">Código BFS</a>
 <a class="cpp-icon" href="/static/files/dijkstra.cpp">Código Dijkstra</a>
+<a class="cpp-icon" href="/static/files/biridian_forest.cpp">Código Ejemplo Grafo Implícito (Biridian Forest)</a>
 </div>
 
 <div class="day">
