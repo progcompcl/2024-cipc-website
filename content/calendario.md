@@ -99,7 +99,7 @@ extraCss:
 </div>
 
 <div class="day">
-<h2> Día 8 (Martes 31/07) </h2>
+<h2> Día 8 (Miércoles 31/07) </h2>
 
 | Hora          | Actividad    |
 |---------------|--------------|
@@ -111,19 +111,19 @@ extraCss:
 </div>
 
 <div class="day">
-<h2> Día 9 (Martes 01/08) </h2>
+<h2> Día 9 (Jueves 01/08) </h2>
 
 | Hora          | Actividad    |
 |---------------|--------------|
-| 09:00 - 10:45 | Grafos II    |
+| 09:00 - 10:45 | Upsolving    |
 | 10:45 - 11:00 | Descanso     |
-| 11:00 - 12:45 | Matemática   |
+| 11:00 - 12:45 | Upsolving    |
 | 12:45 - 13:30 | Almuerzo     |
 | 13:30 - 18:30 | Competencia  |
 </div>
 
 <div class="day">
-<h2> Día 10 (Martes 02/08) </h2>
+<h2> Día 10 (Viernes 02/08) </h2>
 
 | Hora          | Actividad    |
 |---------------|--------------|
