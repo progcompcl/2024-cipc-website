@@ -108,6 +108,8 @@ extraCss:
 | 11:00 - 12:45 | Strings     |
 | 12:45 - 13:30 | Almuerzo    |
 | 13:30 - 18:30 | Competencia |
+<a class="cpp-icon" href="/static/files/dia7/kmp.cpp">Código KMP</a>
+<a class="cpp-icon" href="/static/files/dia7/input-raro.cpp">Código para leer input</a>
 </div>
 
 <div class="day">
