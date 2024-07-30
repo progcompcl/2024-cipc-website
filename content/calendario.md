@@ -32,7 +32,7 @@ extraCss:
 | 12:45 - 13:30 | Almuerzo                          |
 | 13:30 - 18:30 | Competencia                       |
 <a class="pdf-icon" href="/static/clases/Clase2.pdf">Diapositivas</a>
-<a class="pdf-icon" href="/static/clases/solucion-F-dia-2.pdf">Solución Problema F - Revenge on My Boss</a>
+<a class="pdf-icon" href="/static/files/solucion-F-dia-2.pdf">Solución Problema F - Revenge on My Boss</a>
 </div>
 
 <div class="day">
