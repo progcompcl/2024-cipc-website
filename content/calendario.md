@@ -32,7 +32,9 @@ extraCss:
 | 12:45 - 13:30 | Almuerzo                          |
 | 13:30 - 18:30 | Competencia                       |
 <a class="pdf-icon" href="/static/clases/Clase2.pdf">Diapositivas</a>
-<a class="pdf-icon" href="/static/files/solucion-F-dia-2.pdf">Solución Problema F - Revenge on My Boss</a>
+<a class="pdf-icon" href="/static/files/dia2/solucion-i.pdf">Solución Problema I - Imbalanced Array</a>
+<a class="pdf-icon" href="/static/files/dia2/solucion-f.pdf">Solución Problema F - Revenge on My Boss</a>
+<a class="cpp-icon" href="/static/files/dia2/solucion-f.cpp">Codigo Problema F - Revenge on My Boss</a>
 </div>
 
 <div class="day">
@@ -46,10 +48,10 @@ extraCss:
 | 12:45 - 13:30 | Almuerzo     |
 | 13:30 - 18:30 | Competencia  |
 <a class="pdf-icon" href="/static/clases/Clase3.pdf">Diapositivas</a>
-<a class="cpp-icon" href="/static/files/dfs.cpp">Código DFS</a>
-<a class="cpp-icon" href="/static/files/bfs.cpp">Código BFS</a>
-<a class="cpp-icon" href="/static/files/dijkstra.cpp">Código Dijkstra</a>
-<a class="cpp-icon" href="/static/files/biridian_forest.cpp">Código Ejemplo Grafo Implícito (Biridian Forest)</a>
+<a class="cpp-icon" href="/static/files/dia3/dfs.cpp">Código DFS</a>
+<a class="cpp-icon" href="/static/files/dia3/bfs.cpp">Código BFS</a>
+<a class="cpp-icon" href="/static/files/dia3/dijkstra.cpp">Código Dijkstra</a>
+<a class="cpp-icon" href="/static/files/dia3/biridian_forest.cpp">Código Ejemplo Grafo Implícito (Biridian Forest)</a>
 </div>
 
 <div class="day">
@@ -88,6 +90,12 @@ extraCss:
 | 11:00 - 12:45 | Segment Tree Lazy   |
 | 12:45 - 13:30 | Almuerzo            |
 | 13:30 - 18:30 | Competencia         |
+<a class="cpp-icon" href="/static/files/dia6/segment-tree.cpp">Código Segment Tree</a>
+<a class="cpp-icon" href="https://www.youtube.com/watch?v=-oSM_Div60w&ab_channel=JavierOliva">Video Segment Tree 1</a>
+<a class="cpp-icon" href="https://www.youtube.com/watch?v=-5rdlnuWPTM&ab_channel=JavierOliva">Video Segment Tree 2</a>
+<a class="cpp-icon" href="/static/files/dia6/segment-tree-lazy.cpp">Código Segment Tree Lazy</a>
+<a class="cpp-icon" href="https://www.youtube.com/watch?v=Qw55VqTUjOk&ab_channel=JavierOliva">Video Segment Tree Lazy 1</a>
+<a class="cpp-icon" href="https://www.youtube.com/watch?v=MQZ-6Q2BQ_Q&ab_channel=JavierOliva">Video Segment Tree Lazy 2</a>
 </div>
 
 <div class="day">

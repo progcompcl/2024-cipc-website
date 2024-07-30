@@ -81,6 +81,21 @@ th {
     margin-right: 0px;
 }
 
+.youtube-icon::before {
+    display: inline-block;
+
+    background-image: url('/static/img/youtube-icon.svg');
+    background-size: 100% 100%;
+
+    height: 20px;
+    width: 20px;
+
+    content: "";
+    position: relative;
+    top: 4px;
+    margin-right: 0px;
+}
+
 @media screen and (max-width: 1008px) {
     #content {
         flex-direction: column;
