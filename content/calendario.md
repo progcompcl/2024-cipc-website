@@ -124,6 +124,11 @@ extraCss:
 | 11:00 - 12:45 | Matemática   |
 | 12:45 - 13:30 | Almuerzo     |
 | 13:30 - 18:30 | Competencia  |
+<a class="pdf-icon" href="/static/clases/Clase8.pdf">Diapositivas</a>
+<a class="cpp-icon" href="/static/files/dia8/DSUandLCA.cpp">DSU con LCA (MST for each edge)</a>
+<a class="cpp-icon" href="/static/files/dia8/Divisores.cpp">Contar los divisores</a>
+<a class="cpp-icon" href="/static/files/dia8/coficienteBinomialconLucas.cpp">coeficientes binomiales con Lucas</a>
+<a class="cpp-icon" href="/static/files/dia8/BinomimalCoefficientconExponenciacionBinaria.cpp">coeficientes binomiales con Exponenciación</a>
 </div>
 
 <div class="day">
